@@ -10,15 +10,7 @@ This project focuses on leveraging machine learning models and image classificat
 The dataset consists of images of three skin diseases: Nevus syndrome, melanoma, and Seborrheic keratosis. Each disease category includes separate folders for training, validation, and testing images. The dataset enables the training and evaluation of machine learning models for image classification tasks in dermatology.
 
 # Methodology:
-Data Preparation: Organize images into training, validation, and testing sets for each disease category.
-
-Model Definition: Utilize the VGG16 convolutional neural network (CNN) architecture for image classification tasks.
-
-Model Training: Train the VGG16 model on the prepared dataset to learn patterns and features associated with each skin disease.
-
-Model Evaluation: Evaluate the trained model's performance on the testing set using metrics such as accuracy, precision, recall, and F1-score.
-
-Image Prediction: Utilize the trained model to make predictions on new images, enabling swift and accurate diagnosis of skin diseases.
+The project commences with data preparation, where images are organized into training, validation, and testing sets for each disease category, ensuring a balanced and representative dataset. Subsequently, the VGG16 convolutional neural network (CNN) architecture is chosen for its effectiveness in image classification tasks. The model is then trained on the prepared dataset to learn intricate patterns and features associated with each skin disease, leveraging the capabilities of deep learning. Following training, the model's performance is rigorously evaluated on the testing set using standard metrics such as accuracy, precision, recall, and F1-score to gauge its effectiveness in accurately classifying skin diseases. Finally, the trained model is deployed to make predictions on new images, facilitating rapid and precise diagnosis of skin diseases, thereby enhancing medical decision-making and patient care.
 
 # Python Libraries:
 keras
