@@ -21,21 +21,27 @@ Model Evaluation: Evaluate the trained model's performance on the testing set us
 Image Prediction: Utilize the trained model to make predictions on new images, enabling swift and accurate diagnosis of skin diseases.
 
 # Python Libraries:
-TensorFlow
+keras
 
-Scikit-learn
+cv2
 
-Pandas
+os
 
-NumPy
+numpy
 
-Regular Expressions (re)
+itertools
 
-Transformers
+random
 
-SimpleImputer
+collections.Counter
 
-Train_test_split
+glob.iglob
+
+warnings
+
+sklearn.metrics
+
+matplotlib.pyplot
 
 # Conclusion:
 In conclusion, the implementation of machine learning techniques for derma disease detection offers significant advantages in dermatology. By leveraging large datasets of labeled skin images and advanced models like VGG16, accurate disease classification and detection can be achieved. The use of convolutional neural networks has shown promising results, with high accuracy in predicting skin diseases. Transfer learning further enhances model performance, even with limited labeled data. This approach facilitates swift and accurate diagnosis, improving healthcare outcomes for patients.
