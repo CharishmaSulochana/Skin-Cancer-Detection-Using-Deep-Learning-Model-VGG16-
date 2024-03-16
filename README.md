@@ -22,12 +22,19 @@ Image Prediction: Utilize the trained model to make predictions on new images, e
 
 # Python Libraries:
 TensorFlow
+
 Scikit-learn
+
 Pandas
+
 NumPy
+
 Regular Expressions (re)
+
 Transformers
+
 SimpleImputer
+
 Train_test_split
 
 # Conclusion:
